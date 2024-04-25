@@ -257,6 +257,10 @@ header .studio {
   text-align: center;
 }
 
+.our-time-list-item .text {
+  margin-bottom: 8px;
+}
+
 .our-time-list .h-three-title {
   margin-bottom: 8px;
 }
@@ -265,6 +269,39 @@ header .studio {
   padding-bottom: 120px;
   padding-top: 120px;
 }
+
+.manager-content .list-icons {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.manager-content .link-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.manager-content .link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+}
+
+.manager-content .link-icon:hover,
+.manager-content .link-icon:focus {
+  background-color: #31d0aa;
+  fill: #434455;
+}
+
+/*.icon {
+  fill: #4d5ae5;
+}*/
 
 .portfolio-list {
   display: flex;
