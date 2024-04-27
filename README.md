@@ -2,7 +2,7 @@
 
 This is my first project
 
-/\*
+<!--
 flex-wrap: wrap;
 gap
 row-gap
@@ -49,4 +49,23 @@ fill: #03a9f4;
 <use href="./шлях-до-svg-спрайту/имʼя-спрайта.svg#ідентифікатор-символа"></use>
 </svg>
 
-\*/
+.box:hover::before {
+background-color: green;
+}
+.box:hover::after {
+background-color: tomato;
+}
+
+position: static | relative | absolute | fixed | sticky
+
+transition-property: background-color, color, ...;
+transition-duration: <час>
+transition-timing-function: ease; linear; ease-in; ease-out; ease-in-out;
+transition-delay: <затримка>
+
+transform: none | scale (масштаб 1.25 | 0.75) | opacity (прозорість) | transform (трансформація)
+transform: rotate(45deg); rotate(0.5turn);
+
+transform: translateX(tx), translateY(ty) і translate(tx, ty)
+
+-->
