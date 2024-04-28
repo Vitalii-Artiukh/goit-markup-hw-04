@@ -68,4 +68,6 @@ transform: rotate(45deg); rotate(0.5turn);
 
 transform: translateX(tx), translateY(ty) і translate(tx, ty)
 
+z-index: 2; z-index: 1; z-index: -1;
+
 -->
