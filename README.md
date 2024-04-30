@@ -70,4 +70,59 @@ transform: translateX(tx), translateY(ty) і translate(tx, ty)
 
 z-index: 2; z-index: 1; z-index: -1;
 
+<form class="form" name="issue_report_form" autocomplete="off"></form>
+
+============== select =================
+
+<label class="class">
+ <select class="class" name="size">
+  <option value="xs">Extra Small</option>
+  <option value="s">Small</option>
+  <option value="m" selected>Medium</option>
+  <option value="l">Large</option>
+ </select>
+</label>
+
+===============  optgroup  =============
+
+<label class="class">
+ <select name="month">
+  <optgroup label="Summer">
+    <option value="s6">June</option>
+    <option value="s7">July</option>
+    <option value="s8">August</option>
+  </optgroup>
+
+  <optgroup label="Autumn">
+    <option value="s9">September</option>
+    <option value="s10">October</option>
+    <option value="s11">November</option>
+  </optgroup>
+ </select>
+</label>
+
+=============  email & password & phone  ===============
+
+<label>
+  Email
+  <input type="email" name="email" />
+</label>
+<label>
+  Password
+  <input type="password" name="pwd" minlength="5" maxlength="12" />
+</label>
+<label>
+  Phone number
+  <input type="tel" name="phone" />
+
+  <input type="number" name="age" value="0" min="18" max="120" />
+
+               Для вибору лише дати
+  <input type="date" />
+               Для вибору лише часу
+  <input type="time" />
+               Для вибору дати і часу
+  <input type="datetime-local" />
+ </label>
+
 -->
